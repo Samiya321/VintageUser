@@ -1,0 +1,25 @@
+[notify]
+user = "364471371"
+wecom_user_ids = ["SanMu"]
+we_send_type = 2
+tg_send_type = 3
+[[websites.mercari.searches]]
+keyword = "鯛代くん、君ってやつは。"
+notify = [3,1]
+delay = 60
+user_max_pages = 5
+[[websites.mercari.searches]]
+keyword = "鈴木さん 春夏秋冬男子"
+notify = [3,1]
+delay = 60
+user_max_pages = 5
+[[websites.mercari.searches]]
+keyword = "東京エイリアンズ"
+notify = [3,1]
+delay = 60
+user_max_pages = 5
+[[websites.mercari.searches]]
+keyword = "鈴木さん　くじメイト"
+notify = [3,1]
+delay = 60
+user_max_pages = 5
