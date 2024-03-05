@@ -1,0 +1,14 @@
+# 煤炉卖家主页 配置
+# https://jp.mercari.com/user/profile/{id}
+
+[[websites.mercari_user.searches]]
+delay = 1
+keyword = "884891907"
+notify = [2,1]
+
+
+
+[[websites.mercari_user.searches]]
+delay = 1
+keyword = "283226467"
+notify = [2,1]

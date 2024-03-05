@@ -1,0 +1,33 @@
+# 任你购 配置
+# 官网: https://rennigou.jp
+
+# 任你购 网站的搜索设置
+[[websites.rennigou.searches]]
+# 搜索关键字，必填项
+keyword = "家庭教師ヒットマンREBORN"
+
+# 搜索网站，必填项
+# all, mercari, yahooauction, rakuma, amazon, surugaya
+websiteType = "mercari"
+
+# 通知方式
+# 必填项
+# @Samiya310Bot（1），@Lihahadear_bot（2），企业微信Samiya（3）
+notify = [1,1]
+
+delay = 1
+push_price_changes = true
+user_max_pages = 100000
+
+max_concurrency = 50
+
+[websites.rennigou.searches.filter]
+# 通用过滤器
+# 排序
+# mercari 空/推荐排序 price_asc/价格从低到高 price_desc/价格从高到低 new/上架日期从近到远 like_desc/点赞从多到少
+# surugaya 空/默认 price_asc/价格从低到高 price_desc/价格从高到低 new_publish/新上架商品 publish_time_asc/发售日从近到远 publish_time_desc/发售日从远到近
+sortOrder = "new_publish"
+
+haveStock = "1"
+
+newPublish = "2"
